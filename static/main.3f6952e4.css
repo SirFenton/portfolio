@@ -5,9 +5,19 @@
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
+
 body{
     margin:0
 }
+
+.contact-bg {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/images/logo_transparent.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
     display:block
 }
@@ -4156,3 +4166,4 @@ textarea{
   margin-right: auto;
   width: 50%;
 }
+
